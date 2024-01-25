@@ -6,4 +6,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CommunityRepository extends JpaRepository<Community, Long> {
+
+//    metodo pra verificar se o nome e o email sao unicos
+
+    boolean existsByNameOrEmail(String name, String email);
 }
