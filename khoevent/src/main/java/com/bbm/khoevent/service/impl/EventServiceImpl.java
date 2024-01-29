@@ -25,7 +25,7 @@ public class EventServiceImpl implements EventService {
     private final CommunityService communityService;
 
 
-    /**
+    /** @Author: Belmiro Mungoi
      *  Criar Evento
      * 1 - É necessário primeiro pegarmos a comunidade que está a criar o evento,
      *  e para fazer isso chamamos o CommunityService, que já tem um metódo para pegar uma comunidade por id
